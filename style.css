@@ -1,0 +1,19 @@
+.game-screen {
+    width: 70%;
+    height: 30%;
+    border: 1px solid #000;
+    padding: 30px;
+}
+
+.game-display {
+    width: 70%;
+    height: 40%;
+    border: 1px solid #000;
+    margin: 20px 0px;
+}
+
+.score {
+    width: 30%;
+    height: 30%;
+    border: 1px solid #000;
+}
