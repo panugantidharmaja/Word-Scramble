@@ -9,6 +9,8 @@ function game() {
     var word = words[random];
     var final = scramble(word);
     displayWord(final);
+    var btn = document.getElementById("check");
+    btn.addEventListener("click", checkAnswer(word));
 }
 
 function scramble(word) {
